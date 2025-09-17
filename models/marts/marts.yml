@@ -1,0 +1,65 @@
+version: 2
+
+models:
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_channels
+    columns:
+      - name: channel
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_campaigns
+    columns:
+      - name: campaign_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_sales_items
+    columns:
+      - name: item_id
+        tests:
+          - not_null
+          - unique
+
+      - name: product_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_products')
+                field: product_id
+
+      - name: customer_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_id
+
+      - name: channel
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_channels')
+                field: channel
+
+  - name: dim_date
+    columns:
+      - name: date_key
+        tests: [not_null, unique]
+      - name: date
+        tests: [not_null, unique]

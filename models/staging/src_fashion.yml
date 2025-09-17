@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: fashion_raw
+    schema: "{{ '{{' }} target.schema {{ '}}' }}_raw"
+    tables:
+      - name: dataset_fashion_store_campaigns
+      - name: dataset_fashion_store_channels
+      - name: dataset_fashion_store_customers
+      - name: dataset_fashion_store_products
+      - name: dataset_fashion_store_sales
+      - name: dataset_fashion_store_salesitems
+      - name: dataset_fashion_store_stock

@@ -1,0 +1,12 @@
+ecommerce_dbt:
+  outputs:
+    dev:
+      dbname: dbt_ecommerce
+      host: localhost
+      pass: 270403Rafii
+      port: 5432
+      schema: star
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
