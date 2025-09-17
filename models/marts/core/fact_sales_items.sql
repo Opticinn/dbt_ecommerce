@@ -7,9 +7,9 @@ s as (
 select
   si.item_id,
   si.sale_id,
-  -- pilih salah satu baris di bawah (aktifkan SATU saja):
+
   coalesce(s.sale_date, si.sale_date, '1900-01-01'::date) as sale_date,
-  -- coalesce(s.sale_date, si.sale_date) as sale_date,
+  
 
   s.country as country,
   si.product_id,
