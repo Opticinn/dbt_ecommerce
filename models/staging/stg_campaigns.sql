@@ -6,7 +6,8 @@ select
   campaign_name::text                      as campaign_name,
   {{ date_from_text('start_date') }}       as start_date,
   {{ date_from_text('end_date') }}         as end_date,
-  channel::text                            as channel,
+  channel::text                            as channel,          -- asli
+  {{ normalize_channel('channel') }}       as channel_norm,     -- normalisasi
   discount_type::text                      as discount_type,
   {{ pct_to_decimal('discount_value') }}   as discount_value
 from src

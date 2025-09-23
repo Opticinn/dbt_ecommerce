@@ -45,3 +45,13 @@ CASE
   ELSE NULL
 END
 {%- endmacro %}
+
+{% macro normalize_channel(col) -%}
+case
+  when lower(trim({{ col }})) in ('app mobile','app','mobile app') then 'App Mobile'
+  when lower(trim({{ col }})) in ('website','web','website banner','banner','site') then 'Website'
+  when lower(trim({{ col }})) = 'email' then 'Email'
+  when lower(trim({{ col }})) in ('social media','social','ig','fb','tiktok') then 'Social Media'
+  else 'Other'
+end
+{%- endmacro %}
