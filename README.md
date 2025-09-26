@@ -12,6 +12,7 @@ Tujuan utama: menunjukkan **kemampuan data modeling, SQL analytics, dan business
 ---
 
 ## 🗂️ Dataset
+https://www.kaggle.com/datasets/joycemara/european-fashion-store-multitable-dataset?select=dataset_fashion_store_salesitems.csv
 Dataset terdiri dari **7 tabel relational** (3,600+ baris total), clean & interconnected:
 
 - `customers` → profil pelanggan (1,000 rows)  
