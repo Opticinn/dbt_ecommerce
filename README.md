@@ -36,7 +36,7 @@ Pipeline dibangun dengan **dbt** dalam tiga lapisan:
 ⭐ Hasil akhir berupa **star schema** siap untuk analisis BI.  
 
 ---
-
+<img width="634" height="113" alt="image" src="https://github.com/user-attachments/assets/cbc7e47d-a52a-4af0-9946-58a6ffe193af" />
 <img width="1606" height="343" alt="image" src="https://github.com/user-attachments/assets/9d948b65-4061-4ff5-bb47-5df47dd25394" />
 
 
