@@ -37,6 +37,9 @@ Pipeline dibangun dengan **dbt** dalam tiga lapisan:
 
 ---
 
+<img width="1606" height="343" alt="image" src="https://github.com/user-attachments/assets/9d948b65-4061-4ff5-bb47-5df47dd25394" />
+
+
 ## 📊 Business Insights
 Analisis menghasilkan temuan kunci:
 
@@ -72,6 +75,11 @@ Dashboard menjawab pertanyaan bisnis utama:
 - **Category & SKU**: Top Categories & Top 5 Products  
 
 <img width="1119" height="622" alt="image" src="https://github.com/user-attachments/assets/c9ea2040-783d-4d37-9a84-92be1019079c" />
+<img width="1314" height="781" alt="image" src="https://github.com/user-attachments/assets/82ae070c-b681-4058-ae89-7c406f4918c8" />
+<img width="1325" height="786" alt="image" src="https://github.com/user-attachments/assets/b5548a48-cd12-483b-8d30-9bdc2f4c2a43" />
+<img width="1306" height="722" alt="image" src="https://github.com/user-attachments/assets/1f8273c2-c4df-4559-a283-47495e9c0cc7" />
+<img width="1314" height="787" alt="image" src="https://github.com/user-attachments/assets/c3ffc94e-faf8-4dcb-8d49-9cf3d22329c1" />
+<img width="1221" height="733" alt="image" src="https://github.com/user-attachments/assets/c52ba715-95fd-43ca-9e92-91642a62e003" />
 
 
 ## 🧑‍💻 Key Learning Experience
